@@ -1,6 +1,7 @@
 <?php
 /*
 	collects error, message and data from database to be loaded to template file
+	ghfdjghfdsygureycgnuergnucierngcueisl
 */
 
 //header('Content-Type: text/plain; charset=utf-8');
@@ -89,6 +90,7 @@ if (isset($error)) {
 }
 
 // populating inputs if non valid inputs during register atempt
+//fhghjgfdfgdugfudigdfsvnfjsvgfhgv
 if(isset($_GET["city"])) {
 	$smarty->assign('cityInput', $_GET['city']);
 } else {
